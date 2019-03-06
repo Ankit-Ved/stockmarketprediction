@@ -3,7 +3,8 @@ import numpy as np
 import matplotlib
 import math
 import pandas as pd
-from sklearn import cross_validation, preprocessing
+from sklearn import preprocessing
+from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import LinearRegression
 
 quandl.ApiConfig.api_key = "LDtyYSs62h3VXc4SxJay"
